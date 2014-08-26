@@ -1,0 +1,19 @@
+{
+    "__comment1":"Use normal regexp. [[:digit:]] = number:0-9, [[:alpha:]] = alphabetic character, [[:alnum:]] = character or number.",
+    "__comment2":"Do not use end/begin limitators '^' and '$'. They are added automatically.",
+    "character_set":"ascii",
+    "character_group":{
+        "[:lim_uchar:]":"ABC",
+        "[:low_digit:]":"0123"
+    },
+    "cache":{
+        "name":[
+            "cache_01_main",
+            "cache_[[:alpha:]]{1}[[:digit:]]{2}"
+        ],
+        "item_key":[
+            "item.01_[[:digit:]]{2}",
+            "item.02_[[:lim_uchar:]]{1,2}"
+        ]
+    }
+}
