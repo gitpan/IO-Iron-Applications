@@ -8,7 +8,7 @@ if ( not $ENV{RELEASE_TESTING} ) {
 	plan( skip_all => $msg );
 }
 
-eval { use Test::Spelling; };
+eval { require Test::Spelling; Test::Spelling->import() };
 if ( $EVAL_ERROR ) {
 	my $msg = 'Test::Spelling required for testing the Changes file!';
 	plan( skip_all => $msg );
@@ -89,4 +89,5 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 abcdefghijklmnopqrstuvwxyz
 alnum
 CLI
-
+IronCaches
+webservices
