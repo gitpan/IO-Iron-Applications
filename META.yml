@@ -1,5 +1,5 @@
 ---
-abstract: 'Command line tools for package IO::Iron'
+abstract: 'Command line tools for Iron.io services.'
 author:
   - 'Mikko Koivunalho <mikko.koivunalho AT iki.fi>'
 build_requires:
@@ -48,4 +48,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=IO-Iron-Applications
   homepage: https://metacpan.org/release/IO-Iron-Applications
   repository: https://github.com/mikkoi/io-iron-applications.git
-version: 0.11
+version: 0.12

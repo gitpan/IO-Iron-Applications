@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Command line tools for package IO::Iron",
+  "ABSTRACT" => "Command line tools for Iron.io services.",
   "AUTHOR" => "Mikko Koivunalho <mikko.koivunalho AT iki.fi>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -56,7 +56,7 @@ my %WriteMakefileArgs = (
   "TEST_REQUIRES" => {
     "Test::More" => 0
   },
-  "VERSION" => "0.11",
+  "VERSION" => "0.12",
   "test" => {
     "TESTS" => "t/IronCache/*.t"
   }

@@ -12,12 +12,14 @@ all_pod_files_spelling_ok( qw( bin lib  ) );
 __DATA__
 ironcache
 Ironcache
+io
 CLI
 http
 IronCaches
 ironmq
 ironworker
 webservices
+wildcard
 Mikko
 Koivunalho
 mikko
